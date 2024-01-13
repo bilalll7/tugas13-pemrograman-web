@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas 13 | Albilal Bintang Iskandar</title>
+  <link rel="stylesheet" href="./assets/css/w3.css">
+</head>
+
+<body>
+  <div class="w3-container">
+    <img src="./assets/img/banner.jpg" alt="" width="100%" height="250px">
+  </div>
+  <div class="w3-bar w3-cyan w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openFilm('Dilan')">Dilan</button>
+    <button class="w3-bar-item w3-button" onclick="openFilm('Mariposa')">Mariposa</button>
+    <button class="w3-bar-item w3-button" onclick="openFilm('Rentang')">Rentang Kisah</button>
+    <button class="w3-bar-item w3-button" onclick="openFilm('Nanti')">Nanti Kita Seperti Ini</button>
+  </div>
+  <div id="Dilan" class="w3-container film w3-animate-fading" style="display: none;">
+    <h2>Dilan</h2>
+    <img src="./assets/img/dilan.jpg" alt="dilan" width="300px">
+  </div>
+  <div id="Mariposa" class="w3-container film w3-animate-bottom" style="display: none;">
+    <h2>Mariposa</h2>
+    <img src="./assets/img/mariposa.jpg" alt="mariposa">
+  </div>
+  <div id="Rentang" class="w3-container film w3-animate-top" style="display: none;">
+    <h2>Rentang Kisah</h2>
+    <img src="./assets/img/rentang.jpg" alt="rentang">
+  </div>
+  <div id="Nanti" class="w3-container film w3-animate-zoom" style="display: none;">
+    <h2>Nanti Kita Seperti Ini</h2>
+    <img src="./assets/img/nanti.jpg" alt="nanti">
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
